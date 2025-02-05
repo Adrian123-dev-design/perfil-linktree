@@ -1,44 +1,57 @@
 /* Importar tipografía */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;700&display=swap');
 
 body {
-  font-family: 'Oswald', sans-serif;
-  background-color: #f4f4f4;
+  font-family: 'Bebas Neue', sans-serif;
+  background-color: #000000; /* Fondo negro */
+  color: #FFFFFF; /* Texto blanco */
   text-align: center;
   padding: 20px;
+  margin: 0;
 }
 
 .perfil {
-  max-width: 300px;
+  max-width: 400px; /* Perfil más grande */
   margin: 0 auto;
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #1E1E1E; /* Fondo gris oscuro para el perfil */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-.imagen-perfil {
-  width: 100px;
-  border-radius: 50%;
-  border: 3px solid #1E90FF;
+.logo {
+  width: 150px; /* Logo más grande */
+  margin-bottom: 20px;
 }
 
 #info-perfil {
   margin: 20px 0;
 }
 
+#info-perfil h1 {
+  font-size: 32px;
+  margin: 10px 0;
+  color: #00FF00; /* Verde césped */
+}
+
+#info-perfil p {
+  font-size: 18px;
+  color: #CCCCCC; /* Gris claro */
+}
+
 .boton {
   display: block;
-  margin: 10px auto;
-  padding: 10px;
-  background-color: #1E90FF;
-  color: white;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: #00FF00; /* Verde césped */
+  color: #000000; /* Texto negro */
   text-decoration: none;
-  border-radius: 5px;
-  font-size: 18px;
-  transition: background-color 0.3s;
+  border-radius: 10px;
+  font-size: 20px;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .boton:hover {
-  background-color: #0047AB;
+  background-color: #00CC00; /* Verde más oscuro al pasar el mouse */
+  transform: scale(1.05); /* Efecto de escala */
 }
