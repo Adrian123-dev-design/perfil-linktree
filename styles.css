@@ -1,1 +1,44 @@
+/* Importar tipografía */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
 
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+}
+
+.perfil {
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.imagen-perfil {
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid #1E90FF;
+}
+
+#info-perfil {
+  margin: 20px 0;
+}
+
+.boton {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #1E90FF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.boton:hover {
+  background-color: #0047AB;
+}
